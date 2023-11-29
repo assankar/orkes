@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "nodenext",
+        "typeRoots": ["node_modules/@types"],  // "typeRoots": [] -> won't work
+        "moduleResolution": "nodenext",
+        //"types": ["node"]                      // "types": [] -> won't work
+    }
+}
